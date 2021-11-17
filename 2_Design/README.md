@@ -1,5 +1,5 @@
 # Design
-## High Level Design 
+## High Level Design: 
 
 
-## Low Level Design 
+## Low Level Design:

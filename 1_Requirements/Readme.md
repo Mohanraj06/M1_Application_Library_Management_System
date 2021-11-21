@@ -38,28 +38,33 @@ first of these was developed by Shoup in 1978
    - Keeps a record of  every voting process.
 
 ## SWOT ANALYSIS
-
+![SWOT Analysis](https://github.com/Mohanraj06/M1_Application_Voting_poll/blob/main/1_Requirements/SWOT%20Analysis.png)
 
 # 4W&#39;s and 1&#39;H
 ## Who:
-
+This tool is a helping hand for a College administration and students who would like to make the leader for a group of students.
 ## What:
-
+An online Voting system is used to select a canditates by voting to them. 
 ## When:
-
+It mainly used when a leader is needed for group of people.
 ## Where:
-
-
-## How:
-
+Can be put to use where small and medium group of people need to choose a leader by voting their favorites.
 
 # Detail requirements
 ## High Level Requirements:
-
+| ID | Description |  Status | 
+| ----- | ----- | ---------|
+| HLR01 | Admin shall be able to access their account using their credentials|  Successful | 
+| HLR02 | Admin shall be able to initiate the election |Successful | 
+| HlR03 | User shall be able to cast their vote | Successful  |
+| HLR04 | Admin should be able to declare the result correctly | Successful |
 
 
 ##  Low level Requirements:
-
-
-
-
+| ID | Description |  Status | 
+| ----- | ----- | ---------|
+|LLR01 |	When the system is trigged, the system will give option to login as admin or user | Successful |
+|LLR02 |	When they login should give appropriarte menu for them | Successful |
+|LLR03 |	If user entered wrong credentials should show some message | Successful |
+|LLR04 |	If students trying to cast their vote again should show some message  | Successful |
+|LLR05 |	admin can able to ban the user | Successful |

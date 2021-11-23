@@ -15,7 +15,7 @@ Day by day topics, books, and readers all are increasing. All the details are be
 ### Defining Our System
 Libray Management System is where the manager(The Librarian) can login to system by providing username and password, add books by providing details like *Book ID, Book name, Author's Name, Student who Issued, Date Issued, Return date delete book by providing book id, search book by its name, display/view all books and update username and password.
 ## SWOT ANALYSIS
-![SWOT Analysis](https://github.com/Mohanraj06/M1_Application_Voting_poll/blob/main/1_Requirements/SWOT%20Analysis.png)
+![SWOT Analysis](https://github.com/Mohanraj06/M1_Application_Library_Management_System/blob/main/1_Requirements/swot%20analysis.png)
 
 # 4W&#39;s and 1&#39;H
 ## Who:

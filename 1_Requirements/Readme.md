@@ -1,70 +1,61 @@
 # Requirements
 ## Introduction
-## _Election_
-Election  is  the  process  that  gives  the  citizens  the  rights  to  select  candidates  to  represent  them  in  a  democratic pattern.  Election  deal s  with  the  democracy  and  freewill  of  citizens,  for  this  reason  voting  process  is  considered to  be  very  critical  and  sensitive  process,  therefore  election  implementation  must  serve  many  requirements  in order  to  deliver  a  trustworthy  election.  These  requirem ents  can  be  defined  as  user  conventions  requirements and delivery  of secure  voting  process requirements. 
-
-
-
+Library management systems provides an online interface to allow visitors to view or reserve library resources. Now a days there are so many ideas and views regarding each topic that are being penned down proportionately number of authors and so are books increasing. Keeping track of these numerous books ,retrieval and submission back, after borrowing manually can prove to be very hectic. Hence this software to keep track of all the details and retrieve any data in a jiffy.
 ## Research
-## _Types of Voting_
-
-- Paper Ballots 
-- Lever Voting Machines 
-- Punched Cards
-- Optical Mark Sense  Ballots
-- Direct Recording Electronic Voting Systems
-- Electronic Voting 
-
+Day by day topics, books, and readers all are increasing. All the details are being stored. In small libraries in manual registers and in huge ones using a computer system. Largest library is in London, United Kingdom. The main objective of the Library Management system is discipline of the planning, organizing and managing the library tasks . Library Management is entering the records of new book and retrieving the details of book available in the library.
+## Cost and Features and Timeline
 
 ## Cost and Features and Timeline
-  _**Hand written paper**_ ballots were first used in Rome in 139 BCE, and their first use in America was in 1629, to
-select a pastor for the Salem church.
-
-_**Lever voting machines**_ were first used in 1892 in New York, and were slowly adopted across the country.
-They completely eliminate most of the approaches to manipulating the vote count that were endemic a century
-ago, and they can easily be configured to handle a complex general election ballot.
-
-_**Punched card**_ data processing dates back to the 1890's, but IBM did not introduce the
-Votomatic punched card voting system until 1964.
-
-_**Optical mark-sense voting systems**_ were developed in the early 1970's by American Information Systems of
-Omaha, alternately in competition with and in cooperation with Westinghouse Learning Systems of Iowa City. 
-
-The newest voting technology uses _**direct-recording electronic voting**_ machines. These were developed after
-microcomputers became sufficiently inexpensive that they could be incorporated into a voting machine. The
-first of these was developed by Shoup in 1978
-   - Allows us to set up a flexible and trustworthy voting system
-   - Applicable for large as well as small group of people e.g. a batch, a class.
-   - Keeps a record of  every voting process.
-
+### Features
+- Add books
+- Search books
+- View books
+- Delete books
+- Update Credentials
+### Defining Our System
+Libray Management System is where the manager(The Librarian) can login to system by providing username and password, add books by providing details like *Book ID, Book name, Author's Name, Student who Issued, Date Issued, Return date delete book by providing book id, search book by its name, display/view all books and update username and password.
 ## SWOT ANALYSIS
 ![SWOT Analysis](https://github.com/Mohanraj06/M1_Application_Voting_poll/blob/main/1_Requirements/SWOT%20Analysis.png)
 
 # 4W&#39;s and 1&#39;H
 ## Who:
-This tool is a helping hand for a College administration and students who would like to make the leader for a group of students.
+Schools, Colleges and Universities have started using this library management system.
 ## What:
-An online Voting system is used to select a canditates by voting to them. 
+Able to manage books efficiently and effectively.
 ## When:
-It mainly used when a leader is needed for group of people.
+Earlier library managers used to store books informations in registers. But with new technology it will save time aswell as efforts.
 ## Where:
-Can be put to use where small and medium group of people need to choose a leader by voting their favorites.
-
+This system can be used all over the world.
+## How
+This system will help to store books information effectively search,delete them efficiently.
 # Detail requirements
 ## High Level Requirements:
-| ID | Description |  Status | 
-| ----- | ----- | ---------|
-| HLR01 | Admin shall be able to access their account using their credentials|  Successful | 
-| HLR02 | Admin shall be able to initiate the election |Successful | 
-| HlR03 | User shall be able to cast their vote | Successful  |
-| HLR04 | Admin should be able to declare the result correctly | Successful |
+User here refers to Librarian.
+
+| ID | Description | Category | Status | 
+| ----- | ----- | ------- | ---------|
+| HR01 | User shall be able to login to system | Techincal | Implemented |
+| HR02 | User shall be able to add new book | Techincal | Implemented | 
+| HR03 | User shall be able to display books | Techincal | Implemented |
+| HR04 | User shall be able to delete book | Techincal | Implemented |
+| HR05 | User shall be able to search book | Techincal | Implemented |
+| HR06 | User shall be able to update credentials | Techincal | Implemented |
+| HR07 | Data should not be lost in case of failure | Scenario | FUTURE |
+| HR08 | Data should always be stored when closing the system | Technical | Implemented |
 
 
 ##  Low level Requirements:
-| ID | Description |  Status | 
-| ----- | ----- | ---------|
-|LLR01 |	When the system is trigged, the system will give option to login as admin or user | Successful |
-|LLR02 |	When they login should give appropriarte menu for them | Successful |
-|LLR03 |	If user entered wrong credentials should show some message | Successful |
-|LLR04 |	If students trying to cast their vote again should show some message  | Successful |
-|LLR05 |	admin can able to ban the user | Successful |
+| ID | Description | HLR ID | Status (Implemented/Future) |
+| ------ | --------- | ------ | ----- |
+| LR01 | User shall only be able to login to system by providing username and password | HR01 | Implemented |
+| LR02 | If login is successfull then the file where data will be stored should be checked for existence, if YES then it will append to file otherwise it will create a new file | HR01 | Implemented |
+| LR03 | User shall be able to add book by providing details like id,name of the book, author's name and date when added | HR02 | Implemented |
+| LR04 | Return date is calculated by adding 30 days to issued date and store it in return date variable | HR02 | Implemented |
+| LR05 | User shall be able display all book details like id,name,author and date added | HR03 | Implemented |
+| LR06 | User need to search by id for the book to be deleted, if no such book name is available then "Book doen't exist" Message should be displayed | HR04 | Implemented |
+| LR07 | User need to search by name for book details, if no such book is available then "Book doen't exist" Message should be displayed | HR05 | Implemented |
+| LR08 | User need to provide new username and password to update the credentials  | HR06 | Implemented |
+| LR09 | User shall be able to save book details to the files, if file already exists then it should append to file and should not overwrite it and if file does not exists then it should create a new file | HR02, HR03, HR04, HR05,HR06 | Implemented |
+| LR010 | If opening the file fails, then the system shloud prompt the message "File not exist" and should not end the program execution | HR02, HR03, HR04, HR05,HR06 | Implemented |
+| LR011 | When user exit the system, file should be automatically saved and "Thank You" message should be displayed | HR08 | Implemented |
+

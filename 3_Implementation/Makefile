@@ -1,4 +1,3 @@
-
 PROJ_NAME = Library
 TEST_PROJ_NAME = Test_$(PROJ_NAME)
 
@@ -75,3 +74,4 @@ clean:
 	$(RM) *.gcno
 
 # make clean -C doc
+# rmdir $(BUILD_DIR) doc/html

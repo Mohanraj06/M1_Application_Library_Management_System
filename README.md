@@ -2,7 +2,7 @@
 
 |Build| Code Quality | Unity | Git Inspector |
 |-----|--------------|-------|---------------|
-|[![Build-Linux](https://github.com/Mohanraj06/M1_Application_Library_Management_System/actions/workflows/build_linux.yml/badge.svg)](https://github.com/Mohanraj06/M1_Application_Library_Management_System/actions/workflows/build_linux.yml)[![Build-Windows](https://github.com/Mohanraj06/M1_Application_Library_Management_System/actions/workflows/build_windows.yml/badge.svg)](https://github.com/Mohanraj06/M1_Application_Library_Management_System/actions/workflows/build_windows.yml)|
+|[![Build-Linux](https://github.com/Mohanraj06/M1_Application_Library_Management_System/actions/workflows/build_linux.yml/badge.svg)](https://github.com/Mohanraj06/M1_Application_Library_Management_System/actions/workflows/build_linux.yml)[![Build-Windows](https://github.com/Mohanraj06/M1_Application_Library_Management_System/actions/workflows/build_windows.yml/badge.svg)](https://github.com/Mohanraj06/M1_Application_Library_Management_System/actions/workflows/build_windows.yml)|[![Codacy Badge](https://app.codacy.com/project/badge/Grade/dd9e9148782e4946aa39e438b02e41b5)](https://www.codacy.com/gh/Mohanraj06/M1_Application_Library_Management_System/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Mohanraj06/M1_Application_Library_Management_System&amp;utm_campaign=Badge_Grade)|
 
 
 
